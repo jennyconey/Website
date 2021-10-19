@@ -1,0 +1,119 @@
+body {
+  color: black;
+  background-color: white;
+  font-family: Arial, Hevetica, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  background-color: lightgrey;
+
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  float: center;
+  font-size: 40px;
+  background-color: #474747;
+  position: relative;
+  margin-left: auto;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px;
+  float: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+h2 {
+  margin-left: 30px;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  position: left;
+  background-color: white;
+  border-width: medium;
+  border-color:grey;
+  border-radius: 5px;
+  padding: 10px;
+  float: left;
+  margin-left: 30px;
+}
+
+  nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b19cd9;
+  border: 1px solid #555;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  padding-right: 102px;
+  padding-left: 101px;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+
+
+}
+
+li a.active {
+  background-color: #D8BFD8;
+  color: white;
+
+}
+
+li a:hover:not(.active) {
+  background-color: darkgrey;
+  border-radius: : 2px;
+  border-color: black;
+}
+
+ul {
+  float: left;
+  list-style-type: none;
+  margin-left: 450px;
+  margin-top: 200px;
+  padding: 0;
+  overflow: hidden;
+}
+
+video {
+  position: center;
+  float: center;
+  margin-left: 20px;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px;
+}
+
+div cycle {
+
+float: right;
+margin-left: 300px;
+
+
+}
+
+div leaf {
+  float: right;
+  decoration: none;
+  margin-left: 100px;
+
+}
